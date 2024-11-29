@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Test</title>
+  <script type="module" src="./firebase-config.js"></script>
+</head>
+<body>
+  <h1>Prueba de Firebase</h1>
+  <script type="module">
+    import { auth, db } from './firebase-config.js';
+
+    console.log("Firebase Auth:", auth);
+    console.log("Firestore Database:", db);
+
+    // Aquí puedes realizar pruebas adicionales
+  </script>
+</body>
+</html>

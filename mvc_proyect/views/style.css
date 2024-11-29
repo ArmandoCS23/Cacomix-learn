@@ -1,0 +1,118 @@
+/* General */
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor */
+.container {
+  text-align: center;
+  background-color: #1e1e1e;
+  border-radius: 15px;
+  padding: 40px 20px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+/* Imagen */
+img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Títulos */
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Botones en columna */
+.button-group-vertical a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Formularios */
+form {
+  text-align: left;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #2b2b2b;
+  color: white;
+  font-size: 14px;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Grupo de contraseña */
+.password-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.password-group input {
+  width: calc(100% - 40px);
+}
+
+.password-group .toggle-password {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.password-group .toggle-password:hover {
+  color: #007bff;
+}
